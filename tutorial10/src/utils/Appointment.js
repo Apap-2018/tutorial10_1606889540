@@ -65,7 +65,7 @@ export const Appointment = {
 
     },
 
-    addlabResult(requestBody){
+    addLabResult(requestBody){
         return fetch(`${cors}${baseUrl}/1/addLabResult`,{
             method:'POST',
             headers:{
